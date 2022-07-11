@@ -1,0 +1,105 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.center, .topLeft, .topCenter, .topRight, .centerLeft, .centerRight, .bottomLeft, .bottomCenter, .bottomRight {
+    padding: 30px;
+    text-align: center;
+    background-color: #3CB371;
+    display: inline-block;
+    
+}
+
+.center {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.topLeft {
+    left: 0%;
+    top: 0%;
+    position: absolute;
+}
+
+.topCenter {
+    top: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.topRight {
+    top: 0%;
+    right: 0%;
+    position: absolute;
+}
+
+.centerLeft {
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.centerRight {
+    right: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+}
+
+.bottomLeft {
+    bottom: 0%;
+    left: 0%;
+    position: absolute;
+}
+
+.bottomCenter {
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+}
+
+.bottomRight {
+    bottom: 0%;
+    right: 0%;
+    position: absolute;
+}
+
+.box {
+    width: 100px;
+    height: 75px;
+    line-height: 75px;
+    text-align: center;
+    background-color: red;
+    position: absolute;
+}
+
+.CTL {
+    left: 0;
+    top: 0;
+    transform: translate(-100%,-100%);
+}
+
+.CTR {
+    right: 0;
+    top: 0;
+    transform: translate(100%,-100%);
+}
+
+.CBL {
+    left: 0;
+    bottom: 0;
+    transform: translate(-100%,100%);
+}
+
+.CBR {
+    right: 0;
+    bottom: 0;
+    transform: translate(100%,100%);
+}
