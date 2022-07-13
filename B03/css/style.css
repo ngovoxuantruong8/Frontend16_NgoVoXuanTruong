@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 500px;
+    text-align: center;
+    background-color: #F0E68C;
+    margin: 30px auto;
+    padding: 6px 0 6px;
+}
+
+.fa-facebook {
+    margin: -1px;
+    text-decoration: none;
+}
+
+.fa-facebook-f:before {
+    content: "\f39e";
+    font-size: 35px;
+    line-height: 60px;
+}
+
+.f1 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.f2 {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: blue;
+}

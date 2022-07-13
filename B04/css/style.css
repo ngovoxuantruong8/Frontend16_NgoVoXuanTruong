@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main {
+    width: 100%;
+    height: 100vh;
+    color: white;
+    background-color: #6495ED;
+}
+
+.main .content {
+    left: 0%;
+    top: 50%;
+    transform: translateY(-50%);
+    position: absolute;
+    margin-left: 30px;
+}
+
+.content h1 {
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: uppercase;
+}
+
+.content p {
+    padding-top: 10px;
+}
+
+.footer {
+    bottom: 0%;
+    left: 50%;
+    transform: translateX(-50%);
+    position: absolute;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
