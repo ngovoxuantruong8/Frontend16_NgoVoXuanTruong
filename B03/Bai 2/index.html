@@ -17,26 +17,23 @@
             </div>
 
             <div class="content">
-                <ul>
-                    <li>
-                        Name
-                        <p>ZendVN</p>
-                    </li>
-                    <li>
-                        Link to resource
-                        <p>https://zendvn.com/</p>
-                    </li>
-                    <li>
-                        Category
-                        <p>
-                            Select a Category
-                            <i class="fa-solid fa-chevron-down"></i>
-                        </p>
-                    </li>
-                </ul>
+                <div class="forms">
+                    <form>
+                        <label for="name">Name</label>
+                        <input type="text">
+                        <label for="link">Link to resource</label>
+                        <input type="text">
+                        <label for="category">Category</label>
+                            <select id="category">
+                                <option value="select">Select a Category</option>
+                            </select>
+                  </form>
+                </div>
             </div>
 
-            <div class="button">Submit</div>
+            <div class="button">
+                <input type="button" value="Submit">
+            </div>
     </div>
 </body>
 </html>
