@@ -11,12 +11,15 @@ body {
 .container {
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
     position: absolute;
     text-align: center;
     text-transform: uppercase;
     font-family: 'Raleway', Arial, sans-serif;
     font-size: 20px;
+    background-color: rgba(130, 209, 240, 0.6);
+    height: 360px;
+    overflow: hidden;
 }
 
 .image {
@@ -24,6 +27,7 @@ body {
     cursor: pointer;
     position: relative;
     transition: 0.6s;
+    z-index: -1;
 }
 
 .image .content {
@@ -52,21 +56,20 @@ body {
 .content p {
     letter-spacing: 1px;
     font-size: 70.5%;
-    color : rgba(255,255,255,0.8);
+    color: rgba(255, 255, 255, 0.8);
     opacity: 0;
 }
 
-.image:hover, 
-.image:hover p{
+.image:hover .content {
+    margin-top: -130px;
+    transition: 0.6s;
+}
+
+.image:hover,
+.image:hover p {
     opacity: 1;
     transition: 0.6s;
 }
-
-.image:hover .content {
-    margin-top: -140px;
-    transition: 0.6s;
-}
-
 
 
 
