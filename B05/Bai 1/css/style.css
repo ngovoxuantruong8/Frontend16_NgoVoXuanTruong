@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.content-box {
+    width: 100%;
+    height: 60vh;
+    background-color: #000;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 20px 50px;
+}
+
+.heading {
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    padding-bottom: 15px;
+}
+
+.content-left {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-left .item,
+.content-center .item,
+.content-right .item {
+    padding: 8px 0;
+    font-size: 13px;
+    color: grey;
+    opacity: 0.8;
+    text-decoration: none;
+}
+
+.content-left .security {
+    color: white;
+    font-size: 13px;
+    padding-top: 15px;
+    text-decoration: none;
+}
+
+.content-left .security:hover {
+    color: rgb(63, 63, 212);
+}
+
+.content-center {
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 30px;
+}
+
+.content-center .list-item .item {
+    display: block;
+    transition: 0.3s;
+}
+
+.content-center .list-item a:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.content-right {
+    width: 25%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content-right .button-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+.content-right .button {
+    padding-right: 7px;
+}
+
+.content-right .fb,
+.content-right .ytb {
+    font-size: 20px;
+    width: 32px;
+    height: 32px;
+    border-radius: 32px;
+    line-height: 32px;
+    text-align: center;
+    background-color: white;
+    transition: 0.3s;
+}
+
+.content-right .fb:hover {
+    background-color: #4267B2;
+    transition: 0.3s;
+}
+
+.content-right .fa-facebook-f {
+    color: #4267B2;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-right .fa-facebook-f:hover {
+    color: white;
+    transition: 0.3s;
+}
+
+.content-right .fa-youtube {
+    color: #FF0000;;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.content-right .ytb:hover {
+    background-color:#FF0000; ;
+    transition: 0.4s;
+}
+
+.content-right .fa-youtube:hover {
+    color: white;
+    transition: 0.4s;
+}
+
+.content-right .email-register {
+    padding-top: 20px;
+}
+
+.content-right .reward-item {
+    font-size: 13px;
+}
+
+.register-box {
+    padding: 10px 0;
+    display: inline-flex;
+    flex-direction: row-reverse;
+    justify-content: flex-start;
+
+}
+
+.register-box .btn {
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.register-box input[type=text] {
+    padding: 9px;
+    margin-right: 5px;
+    border-radius: 7px;
+}
