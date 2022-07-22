@@ -155,14 +155,20 @@
 
 .register-box .btn {
     padding: 10px;
-    background-color: blue;
+    background-color: rgba(72, 72, 240, 0.5);
     color: white;
-    border-radius: 7px;
+    border-radius: 5px;
     cursor: pointer;
+    transition: 0.3s;
+}
+
+.register-box .btn:hover {
+    background: blue;
+    transition: 0.3s;
 }
 
 .register-box input[type=text] {
     padding: 9px;
     margin-right: 5px;
-    border-radius: 7px;
+    border-radius: 5px;
 }
