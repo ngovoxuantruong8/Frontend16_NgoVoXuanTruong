@@ -72,7 +72,6 @@
 
 .content-center .list-item a:hover {
     color: white;
-    transition: 0.3s;
 }
 
 .content-right {
@@ -102,39 +101,39 @@
     line-height: 32px;
     text-align: center;
     background-color: white;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .content-right .fb:hover {
     background-color: #4267B2;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .content-right .fa-facebook-f {
     color: #4267B2;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .content-right .fa-facebook-f:hover {
     color: white;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .content-right .fa-youtube {
     color: #FF0000;;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .content-right .ytb:hover {
     background-color:#FF0000; ;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .content-right .fa-youtube:hover {
     color: white;
-    transition: 0.4s;
+    transition: 0.2s;
 }
 
 .content-right .email-register {
@@ -159,12 +158,12 @@
     color: white;
     border-radius: 5px;
     cursor: pointer;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .register-box .btn:hover {
     background: blue;
-    transition: 0.3s;
+    transition: 0.2s;
 }
 
 .register-box input[type=text] {
