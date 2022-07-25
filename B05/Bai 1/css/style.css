@@ -85,7 +85,6 @@
 .content-right .button-list {
     list-style-type: none;
     display: flex;
-    flex-direction: row;
 }
 
 .content-right .button {
@@ -121,13 +120,15 @@
 }
 
 .content-right .fa-youtube {
-    color: #FF0000;;
+    color: #FF0000;
+    ;
     cursor: pointer;
     transition: 0.2s;
 }
 
 .content-right .ytb:hover {
-    background-color:#FF0000; ;
+    background-color: #FF0000;
+    ;
     transition: 0.2s;
 }
 
